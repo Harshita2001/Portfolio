@@ -1,0 +1,82 @@
+.flex{
+	display: flex;
+}
+
+.justify-between{
+	justify-content: space-between;
+}
+
+.btn{
+	padding: 0.5rem 2rem;
+	font-size: 0.9rem;
+	font-weight: 600;
+	border: 2px solid transparent; /*transparent because we dont want to show border initially..only on hover*/
+	outline: none; /*no border outline*/
+	cursor:  pointer;
+	font-family: 'Poppins' , sans-serif;
+	transition: all .3s ease;
+}
+
+.btn-primary{
+	background: var(--secondary_text);
+	text-decoration:none
+}
+
+.btn-primary:hover{
+	background: transparent;
+	border-color: var(--secondary_text);
+	color: var(--secondary_text);
+}
+
+.btn-secondary{
+	background: var(--primary_bg);
+	border-color: var(--secondary_text);
+	color: var(--secondary_text);
+
+}
+
+.btn-secondary:hover{
+	background: var(--secondary_text);
+	color: var(--primary_bg);
+}
+
+.heading{
+	background-color: var(--secondary_bg);
+	color: var(--secondary_text);
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.7rem;
+	padding: 1.0rem 1.5rem;
+}
+
+.btn-link{
+	background: var(--secondary_bg);
+	border-color: var(--secondary_text);
+	color: var(--secondary_text);
+	border-radius: 0.4rem;
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.btn-link:hover{
+	background: var(--secondary_text);
+	color: var(--secondary_bg);
+}
+
+.btn-send{
+	background-color: black;
+	border-color: var(--secondary_text);
+	color: var(--secondary_text);
+	border-radius: 0.4rem;
+	width: 30%;
+	margin-top: 1rem;
+	
+}
+
+.btn-send:hover{
+	background: var(--secondary_text);
+	color: var(--primary_bg);
+	
+}
+
